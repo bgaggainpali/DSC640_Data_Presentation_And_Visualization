@@ -1,0 +1,34 @@
+---
+title: "Bhargava_Gaggainpali_DSC640_Exercise6-2_R"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+df <- read.csv(file = "C:/BHARGAVA DESKTOP 2020/Bhargava_College_630_640/DSC640_Data_Presentation_And_Visualization/WEEK11-12/education.csv", header=TRUE)
+head(df)
+```
+```{r}
+# Histogram
+hist(df$math)
+```
+```{r}
+#boxplot
+boxplot(df$math)
+```
+```{r}
+
+```
+
+
+
+
+
+
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
